@@ -1,0 +1,30 @@
+/* Write your CSS here */
+@import 'https://fonts.googleapis.com/css?family=Bree Serif';
+
+.list-style {
+  list-style: none;
+  margin-right: 20px;
+}
+.btn {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #7b8794;
+}
+.selected {
+  border-bottom: 2px #2563eb solid;
+  color: #2563eb;
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    font-size: 20px;
+    width: 80px;
+  }
+  .list-style {
+    margin-right: 0px;
+  }
+}

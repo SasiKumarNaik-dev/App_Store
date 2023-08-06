@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+@import 'https://fonts.googleapis.com/css?family=Bree Serif';
+
+.page-div {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bree Serif';
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+}
+.tab-list {
+  display: flex;
+  padding-left: 20px;
+}
+.app-heading {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #1e293b;
+}
+.search-bar {
+  height: 30px;
+  flex-grow: 1;
+  outline: none;
+  border: 1px #7b8794 solid;
+  border-right: 0px white solid;
+  padding-left: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: transparent;
+}
+.search-div {
+  width: 310px;
+  height: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.search-img {
+  height: 23px;
+  width: 23px;
+  cursor: pointer;
+}
+.search-button {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #7b8794 solid;
+  border-left: none;
+  background-color: transparent;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.apps-display {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .app-heading {
+    font-size: 40px;
+  }
+  .search-div {
+    width: 250px;
+  }
+  .apps-display {
+    width: 80%;
+  }
+}
